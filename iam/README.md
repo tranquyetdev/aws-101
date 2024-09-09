@@ -4,10 +4,8 @@ Identity and Access Management (IAM) is a web service that helps you securely co
 
 ## Policy Elements
 
-- [Actions](iam/reference/policy-elements/actions/actions.md)
-- [Resources](iam/reference/policy-elements/resources/resources.md)
-- [Principals](iam/reference/policy-elements/principal/principal.md)
-- [Conditions](iam/reference/policy-elements/condition/condition.md)
+- [Principals](reference/policy-elements/principal/principal.md)
+- [Conditions](reference/policy-elements/condition/condition.md)
 
 ## Policy Evaluation Logic
 
@@ -23,4 +21,4 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-l
 ## Recipes
 
 - [Example Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)
-- [Recipes](iam/recipes/recipes.md)
+- [Recipes](recipes/README.md)
