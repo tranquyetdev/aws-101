@@ -1,6 +1,6 @@
-# Revoking IAM Role Temporary Credentials
+# Revoke IAM Temporary Credentials
 
-To revoke **temporary credentials** for an IAM role (such as those issued by AWS Security Token Service (STS) via `AssumeRole`), you can use a combination of **IAM policies** and **AWS session management tools**. While there is no direct API to "revoke" temporary credentials that have already been issued, you can **invalidate future access** by applying restrictive policies and denying session-based permissions.
+To revoke **temporary credentials** for an IAM user/role (such as those issued by AWS Security Token Service (STS) via `AssumeRole`), you can use a combination of **IAM policies** and **AWS session management tools**. While there is no direct API to "revoke" temporary credentials that have already been issued, you can **invalidate future access** by applying restrictive policies and denying session-based permissions.
 
 ## IAM Policy for Revoking Temporary Credentials
 

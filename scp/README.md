@@ -4,6 +4,8 @@ Service Control Policies (SCPs) are a type of policy that you can use to manage 
 
 ## Why DENY is Preferred for SCPs:
 
+By default, FullAWSAccess is granted to all accounts in an organization. This means that all actions are allowed unless explicitly denied. To restrict permissions, you can use SCPs to deny specific actions across all accounts in an organization or organizational unit (OU). When using SCPs, it is recommended to use **DENY** statements to restrict actions, rather than **ALLOW** statements. This approach helps ensure that you are following the principle of least privilege and that you are not inadvertently granting more permissions than intended.
+
 1. **SCPs Work as Guardrails**:
 
    - SCPs are designed to act as **guardrails** that restrict or block certain actions across all accounts within an organization or organizational unit (OU).
